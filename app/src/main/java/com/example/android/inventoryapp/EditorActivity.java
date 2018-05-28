@@ -99,6 +99,11 @@ public class EditorActivity extends AppCompatActivity implements
         mSupplierNameEditText = findViewById(R.id.edit_supplier_name);
         mSupplierPhoneNumberEditText = findViewById(R.id.edit_supplier_number);
 
+        // Set fields to 0
+        mPriceEditText.setText(String.valueOf(0));
+        mQuantityEditText.setText(String.valueOf(0));
+        mSupplierPhoneNumberEditText.setText(String.valueOf(0));
+
         /* Button for increasing quantity */
         ImageButton mMore = findViewById(R.id.edit_more);
 
@@ -190,22 +195,27 @@ public class EditorActivity extends AppCompatActivity implements
 
         if (TextUtils.isEmpty(productNameString)) {
             mProductNameEditText.setError(getString(R.string.what_is_name));
+            return;
         }
 
         if (TextUtils.isEmpty(priceString)) {
             mPriceEditText.setError(getString(R.string.what_is_price));
+            return;
         }
 
         if (TextUtils.isEmpty(quantityString)) {
             mQuantityEditText.setError(getString(R.string.how_many));
+            return;
         }
 
         if (TextUtils.isEmpty(supplierNameString)) {
             mSupplierNameEditText.setError(getString(R.string.who_is_supplier));
+            return;
         }
 
         if (TextUtils.isEmpty(supplierPhoneNumberString)) {
             mSupplierPhoneNumberEditText.setError(getString(R.string.what_is_supplier_phone));
+            return;
         }
 
         int price = Integer.parseInt(priceString);
