@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+
+    <!-- Label for overflow menu option that inserts fake item data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all item data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Items</string>
+
+    <!-- Label for Sale button in list_item [CHAR LIMIT=30] -->
+    <string name="sale">Sale</string>
+
+    <!-- Label for item entry attributes in the editor [CHAR LIMIT=30] -->
+    <string name="item_entry">Item entry</string>
+
+    <!-- Label for less button in the editor [CHAR LIMIT=30] -->
+    <string name="less">Less</string>
+
+    <!-- Label for more button in the editor [CHAR LIMIT=30] -->
+    <string name="more">More</string>
+
+    <!-- Label for phone button in the editor [CHAR LIMIT=30] -->
+    <string name="phone">Phone call</string>
+
+    <!-- Label for supplier attributes in the editor [CHAR LIMIT=30] -->
+    <string name="supplier">Supplier</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_name">Product Name</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_price">Price</string>
+
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_quantity">Quantity</string>
+
+    <!-- Text hint for sales field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_sales">Sales</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_supplier_name">Supplier Name</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_supplier_number">Supplier Number</string>
+
+    <!-- Text for button -->
+    <string name="quantity_filled">Quantity must be filled</string>
+
+    <!-- Text for button -->
+    <string name="quantity_less_0">Quantity cannot be less than 0</string>
+
+    <!-- Toast message in editor when new item item been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_item_successful">Item saved</string>
+
+    <!-- Toast message in editor when new item has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_item_failed">Error with saving item</string>
+
+    <!-- Toast message in editor when current item was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_item_successful">Item updated</string>
+
+    <!-- Toast message in editor when current item has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_item_failed">Error with updating item</string>
+
+    <!-- Label for editor menu option to save item and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current item [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for the item's breed if the breed is unknown [CHAR LIMIT=20] -->
+    <string name="unknown_supplier">Unknown supplier</string>
+
+    <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">Get started adding some items.</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a item [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Click on the round icon below.</string>
+
+    <!-- Title for the activity to add a new item [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_item">Add an Item</string>
+
+    <!-- Title for the activity to edit an existing item [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_item">Edit Item</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current item [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current item was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_successful">Item deleted</string>
+
+    <!-- Toast message in editor when current item has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_failed">Error with deleting item</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current item [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this item?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current item [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current item [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <string name="price">Price: %1$s</string>
+
+    <string name="quantity">Quantity: </string>
+
+    <!-- Fill in the blank fields -->
+    <string name="fill_in">Fill in the blank fields</string>
+
+    <!-- What is the name of the item? -->
+    <string name="what_is_name">What is the name of the item?</string>
+
+    <!-- What is the price of the item? -->
+    <string name="what_is_price">What is the price of the item?</string>
+
+    <!-- What is the quantity of the item? -->
+    <string name="how_many">What is the quantity of the item?</string>
+
+    <!-- Who is the supplier of the item? -->
+    <string name="who_is_supplier">Who is the supplier of the item?</string>
+
+    <!-- What is the phone number of the supplier? -->
+    <string name="what_is_supplier_phone">What is the phone number of the supplier?</string>
+
+</resources>
